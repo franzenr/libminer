@@ -32,7 +32,7 @@ devtools::install_github("franzenr/libminer")
 
 ## Example
 
-To get a count of the total number of installed packages in each of your librarires, use `lib_summary()`. Including the optional `sizes = TRUE` argument will also return the size of each library. 
+To get a count of the total number of installed packages in each of your libraries, use `lib_summary()`. Including the optional `sizes = TRUE` argument will also return the size of each library. 
 
 ```{r example}
 library(libminer)

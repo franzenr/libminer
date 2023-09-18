@@ -25,7 +25,7 @@ devtools::install_github("franzenr/libminer")
 ## Example
 
 To get a count of the total number of installed packages in each of your
-librarires, use `lib_summary()`. Including the optional `sizes = TRUE`
+libraries, use `lib_summary()`. Including the optional `sizes = TRUE`
 argument will also return the size of each library.
 
 ``` r
@@ -35,7 +35,7 @@ library(libminer)
 lib_summary()
 #>                                                                                         Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library
-#> 2 /private/var/folders/tw/9kctjvks4_n89wkzlx8xr001bj69l_/T/RtmpUgo71t/temp_libpath1597427ec777b
+#> 2 /private/var/folders/tw/9kctjvks4_n89wkzlx8xr001bj69l_/T/RtmpUgo71t/temp_libpath1597479b8ce22
 #>   n_packages
 #> 1        126
 #> 2          1
@@ -43,8 +43,8 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                         Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library
-#> 2 /private/var/folders/tw/9kctjvks4_n89wkzlx8xr001bj69l_/T/RtmpUgo71t/temp_libpath1597427ec777b
+#> 2 /private/var/folders/tw/9kctjvks4_n89wkzlx8xr001bj69l_/T/RtmpUgo71t/temp_libpath1597479b8ce22
 #>   n_packages lib_size
-#> 1        126     8734
-#> 2          1     8734
+#> 1        126     8907
+#> 2          1     8907
 ```
