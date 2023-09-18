@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# libminer
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of libminer is to is to provide an overview of your R library setup. This is a toy package created as part of the Fundamentals of Package Development workshop given at Posit::conf(2023) 
+
+## Installation
+
+You can install the development version of libminer from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("franzenr/libminer")
+```
+
+## Example
+
+To get a count of the total number of installed packages in each of your librarires, use `lib_summary()`. Including the optional `sizes = TRUE` argument will also return the size of each library. 
+
+```{r example}
+library(libminer)
+## basic example code
+
+lib_summary()
+# specify sizes = TRUE
+lib_summary(sizes = TRUE)
+```
